@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Procesare video cu mascare logo - Optimizat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        canvas {
+            border: 1px solid #333;
+            max-width: 100%;
+            background-color: black;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        video {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+        button, input {
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        button:hover:not(:disabled) {
+            background-color: #45a049;
+        }
+        .progress-container {
+            width: 100%;
+            background-color: #ddd;
+            margin: 10px 0;
+            border-radius: 4px;
+            display: none;
+        }
+        .progress-bar {
+            height: 20px;
+            background-color: #4CAF50;
+            border-radius: 4px;
+            width: 0%;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+        }
+        .options {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .options label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+        }
+        #preview-container {
+            display: none;
+            margin-top: 20px;
+            width: 100%;
+        }
+        #preview-video {
+            width: 100%;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Procesare video cu efect de mascare inversată</h2>
+        
+        <div class="controls">
+            <input type="file" id="videoUpload" accept="video/*" />
+            <input type="file" id="logoUpload" accept="image/png,image/jpeg" />
+        </div>
+        
+        <div class="options">
+            <label><input type="checkbox" id="useWebGL" checked> Folosește WebGL pentru procesare (recomandat)</label>
+            <label>
+                Calitate output:
+                <select id="qualitySettings">
+                    <option value="high">Înaltă (8 Mbps)</option>
+                    <option value="medium" selected>Medie (5 Mbps)</option>
+                    <option value="low">Joasă (3 Mbps)</option>
+                </select>
+            </label>
+        </div>
+        
+        <div class="status" id="status">Încărcați un video și un logo pentru a începe.</div>
+        
+        <div class="controls">
+            <button id="processBtn" disabled>Procesează și creează video</button>
+        </div>
+        
+        <div class="progress-container" id="progressContainer">
+            <div class="progress-bar" id="progressBar">0%</div>
+        </div>
+        
+        <video id="sourceVideo" style="display: none;"></video>
+        <canvas id="outputCanvas" style="display: none;"></canvas>
+        
+        <div id="preview-container">
+            <h3>Preview rezultat:</h3>
+            <video id="preview-video" controls></video>
+            <div class="controls">
+                <button id="downloadBtn">Descarcă video</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Elemente DOM
+        const video = document.getElementById('sourceVideo');
+        const canvas = document.getElementById('outputCanvas');
+        const processBtn = document.getElementById('processBtn');
+        const statusElem = document.getElementById('status');
+        const useWebGLCheck = document.getElementById('useWebGL');
+        const qualitySelect = document.getElementById('qualitySettings');
+        const progressContainer = document.getElementById('progressContainer');
+        const progressBar = document.getElementById('progressBar');
+        const previewContainer = document.getElementById('preview-container');
+        const previewVideo = document.getElementById('preview-video');
+        const downloadBtn = document.getElementById('downloadBtn');
+        
+        // State
+        let logo = new Image();
+        let videoBlob = null;
+        let ctx = null;
+        let glRenderer = null;
+        let frameCount = 0;
+        let currentFrame = 0;
+        let processingComplete = false;
+        let recordedChunks = [];
+        
+        // WebGL renderer pentru procesare eficientă
+        class WebGLRenderer {
+            constructor(canvas) {
+                this.canvas = canvas;
+                this.gl = null;
+                this.program = null;
+                this.textures = {
+                    video: null,
+                    logo: null
+                };
+                this.buffers = {
+                    position: null
+                };
+                this.init();
+            }
+            
+            init() {
+                // Initializare WebGL
+                this.gl = this.canvas.getContext('webgl') || this.canvas.getContext('experimental-webgl');
+                if (!this.gl) {
+                    console.error('WebGL nu este suportat în acest browser');
+                    return false;
+                }
+                
+                // Shadere
+                const vertexShaderSource = `
+                    attribute vec2 a_position;
+                    attribute vec2 a_texCoord;
+                    varying vec2 v_texCoord;
+                    void main() {
+                        gl_Position = vec4(a_position, 0, 1);
+                        v_texCoord = a_texCoord;
+                    }
+                `;
+                
+                const fragmentShaderSource = `
+                    precision mediump float;
+                    varying vec2 v_texCoord;
+                    uniform sampler2D u_videoTexture;
+                    uniform sampler2D u_logoTexture;
+                    void main() {
+                        vec4 videoColor = texture2D(u_videoTexture, v_texCoord);
+                        vec4 logoColor = texture2D(u_logoTexture, v_texCoord);
+                        
+                        // Inversăm culoarea video
+                        vec4 invertedColor = vec4(1.0 - videoColor.rgb, videoColor.a);
+                        
+                        // Aplicăm masca logo
+                        gl_FragColor = invertedColor * logoColor.a;
+                    }
+                `;
+                
+                // Compilăm și legăm shader-ele
+                const vertexShader = this.compileShader(vertexShaderSource, this.gl.VERTEX_SHADER);
+                const fragmentShader = this.compileShader(fragmentShaderSource, this.gl.FRAGMENT_SHADER);
+                
+                this.program = this.gl.createProgram();
+                this.gl.attachShader(this.program, vertexShader);
+                this.gl.attachShader(this.program, fragmentShader);
+                this.gl.linkProgram(this.program);
+                
+                if (!this.gl.getProgramParameter(this.program, this.gl.LINK_STATUS)) {
+                    console.error('Nu s-au putut lega shader-ele:', this.gl.getProgramInfoLog(this.program));
+                    return false;
+                }
+                
+                // Buffer-e
+                this.buffers.position = this.gl.createBuffer();
+                this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.buffers.position);
+                
+                // Pătrat care acoperă canvas-ul
+                const positions = [
+                    -1.0, -1.0,  // stânga jos
+                     1.0, -1.0,  // dreapta jos
+                    -1.0,  1.0,  // stânga sus
+                     1.0,  1.0   // dreapta sus
+                ];
+                this.gl.bufferData(this.gl.ARRAY_BUFFER, new Float32Array(positions), this.gl.STATIC_DRAW);
+                
+                // Texturi
+                this.textures.video = this.gl.createTexture();
+                this.gl.bindTexture(this.gl.TEXTURE_2D, this.textures.video);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_S, this.gl.CLAMP_TO_EDGE);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_T, this.gl.CLAMP_TO_EDGE);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_MIN_FILTER, this.gl.LINEAR);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_MAG_FILTER, this.gl.LINEAR);
+                
+                this.textures.logo = this.gl.createTexture();
+                this.gl.bindTexture(this.gl.TEXTURE_2D, this.textures.logo);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_S, this.gl.CLAMP_TO_EDGE);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_T, this.gl.CLAMP_TO_EDGE);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_MIN_FILTER, this.gl.LINEAR);
+                this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_MAG_FILTER, this.gl.LINEAR);
+                
+                return true;
+            }
+            
+            compileShader(source, type) {
+                const shader = this.gl.createShader(type);
+                this.gl.shaderSource(shader, source);
+                this.gl.compileShader(shader);
+                
+                if (!this.gl.getShaderParameter(shader, this.gl.COMPILE_STATUS)) {
+                    console.error('Eroare la compilarea shader-ului:', this.gl.getShaderInfoLog(shader));
+                    this.gl.deleteShader(shader);
+                    return null;
+                }
+                
+                return shader;
+            }
+            
+            updateVideoTexture(videoElem) {
+                this.gl.activeTexture(this.gl.TEXTURE0);
+                this.gl.bindTexture(this.gl.TEXTURE_2D, this.textures.video);
+                this.gl.texImage2D(this.gl.TEXTURE_2D, 0, this.gl.RGBA, this.gl.RGBA, this.gl.UNSIGNED_BYTE, videoElem);
+            }
+            
+            updateLogoTexture(logoElem) {
+                this.gl.activeTexture(this.gl.TEXTURE1);
+                this.gl.bindTexture(this.gl.TEXTURE_2D, this.textures.logo);
+                this.gl.texImage2D(this.gl.TEXTURE_2D, 0, this.gl.RGBA, this.gl.RGBA, this.gl.UNSIGNED_BYTE, logoElem);
+            }
+            
+            render() {
+                // Viewport
+                this.gl.viewport(0, 0, this.canvas.width, this.canvas.height);
+                
+                // Curățare
+                this.gl.clearColor(0.0, 0.0, 0.0, 1.0);
+                this.gl.clear(this.gl.COLOR_BUFFER_BIT);
+                
+                // Folosire program
+                this.gl.useProgram(this.program);
+                
+                this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.buffers.position);
+                const positionLocation = this.gl.getAttribLocation(this.program, 'a_position');
+                this.gl.enableVertexAttribArray(positionLocation);
+                this.gl.vertexAttribPointer(positionLocation, 2, this.gl.FLOAT, false, 0, 0);
+                
+                const texCoordLocation = this.gl.getAttribLocation(this.program, 'a_texCoord');
+                if (texCoordLocation !== -1) {
+                    const texCoordBuffer = this.gl.createBuffer();
+                    this.gl.bindBuffer(this.gl.ARRAY_BUFFER, texCoordBuffer);
+                    const texCoords = [
+                        0.0, 1.0,
+                        1.0, 1.0,
+                        0.0, 0.0,
+                        1.0, 0.0,
+                    ];
+                    this.gl.bufferData(this.gl.ARRAY_BUFFER, new Float32Array(texCoords), this.gl.STATIC_DRAW);
+                    this.gl.enableVertexAttribArray(texCoordLocation);
+                    this.gl.vertexAttribPointer(texCoordLocation, 2, this.gl.FLOAT, false, 0, 0);
+                }
+                
+                const videoLocation = this.gl.getUniformLocation(this.program, 'u_videoTexture');
+                const logoLocation = this.gl.getUniformLocation(this.program, 'u_logoTexture');
+                
+                this.gl.uniform1i(videoLocation, 0);  // TEXTURE0
+                this.gl.uniform1i(logoLocation, 1);   // TEXTURE1
+                
+                this.gl.drawArrays(this.gl.TRIANGLE_STRIP, 0, 4);
+            }
+        }
+
+        function setupCanvas() {
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            
+            if (useWebGLCheck.checked) {
+                try {
+                    glRenderer = new WebGLRenderer(canvas);
+                    if (!glRenderer.gl) {
+                        ctx = canvas.getContext('2d', { alpha: false });
+                        statusElem.textContent = "WebGL nu este disponibil, se va folosi Canvas 2D (mai lent)";
+                        useWebGLCheck.checked = false;
+                    }
+                } catch (e) {
+                    console.error("Eroare la inițializarea WebGL:", e);
+                    ctx = canvas.getContext('2d', { alpha: false });
+                    statusElem.textContent = "Eroare WebGL, se va folosi Canvas 2D (mai lent)";
+                    useWebGLCheck.checked = false;
+                }
+            } else {
+                ctx = canvas.getContext('2d', { alpha: false });
+            }
+            
+            if (glRenderer && glRenderer.gl) {
+                glRenderer.updateLogoTexture(logo);
+            }
+        }
+
+        function processFrameWebGL() {
+            if (!glRenderer) return;
+            
+            glRenderer.updateVideoTexture(video);
+            glRenderer.render();
+        }
+
+        function processFrameCanvas2D() {
+            ctx.fillStyle = 'black';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.save();
+            ctx.filter = 'invert(1)';
+            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+            ctx.restore();
+            
+            ctx.globalCompositeOperation = 'destination-in';
+            ctx.drawImage(logo, 0, 0, canvas.width, canvas.height);
+            ctx.globalCompositeOperation = 'source-over';
+        }
+
+        document.getElementById('logoUpload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    logo.src = e.target.result;
+                    logo.onload = checkReady;
+                };
+                reader.readAsDataURL(file);
+                statusElem.textContent = "Logo încărcat.";
+            }
+        });
+
+        document.getElementById('videoUpload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                video.src = URL.createObjectURL(file);
+                statusElem.textContent = "Video încărcat. Se calculează durata...";
+            }
+        });
+
+        function checkReady() {
+            if(video.readyState >= 2 && logo.complete && logo.naturalWidth !== 0) {
+                setupCanvas();
+                processBtn.disabled = false;
+                
+                const fps = 30; // Rata de cadre standard
+                frameCount = Math.ceil(video.duration * fps);
+                
+                statusElem.textContent = `Tot pregătit! Video: ${video.videoWidth}x${video.videoHeight}, Durată: ${video.duration.toFixed(1)} secunde (~${frameCount} cadre)`;
+            }
+        }
+
+        video.addEventListener('loadedmetadata', checkReady);
+        video.addEventListener('durationchange', checkReady);
+        
+        useWebGLCheck.addEventListener('change', function() {
+            if (video.readyState >= 2) setupCanvas();
+        });
+
+        processBtn.addEventListener('click', async () => {
+            if (processingComplete) {
+                processingComplete = false;
+                recordedChunks = [];
+                previewContainer.style.display = 'none';
+            }
+            
+            processBtn.disabled = true;
+            progressContainer.style.display = 'block';
+            canvas.style.display = 'block';
+            
+            let bitrate = 5000000; 
+            switch(qualitySelect.value) {
+                case 'high': bitrate = 8000000; break; // 8 Mbps
+                case 'low': bitrate = 3000000; break;  // 3 Mbps
+            }
+            
+            const options = {
+                mimeType: 'video/mp4; codecs=vp9',
+                videoBitsPerSecond: bitrate
+            };
+            
+            const stream = canvas.captureStream(60); 
+            
+            let mediaRecorder;
+            try {
+                mediaRecorder = new MediaRecorder(stream, options);
+            } catch (e) {
+                try {
+                    mediaRecorder = new MediaRecorder(stream);
+                } catch (err) {
+                    statusElem.textContent = "Eroare la inițializarea MediaRecorder. Browser-ul nu suportă înregistrarea.";
+                    processBtn.disabled = false;
+                    progressContainer.style.display = 'none';
+                    return;
+                }
+            }
+            
+            mediaRecorder.ondataavailable = (e) => {
+                if (e.data && e.data.size > 0) {
+                    recordedChunks.push(e.data);
+                }
+            };
+            
+            mediaRecorder.onstop = () => {
+                videoBlob = new Blob(recordedChunks, { type: 'video/mp4' });
+                
+                previewVideo.src = URL.createObjectURL(videoBlob);
+                previewContainer.style.display = 'block';
+                
+                statusElem.textContent = "Procesare completă! Vizualizați rezultatul și descărcați.";
+                processBtn.textContent = "Procesează din nou";
+                processBtn.disabled = false;
+                processingComplete = true;
+            };
+            
+            mediaRecorder.start(1000); // Chunks de 1 secundă
+            
+            video.currentTime = 0;
+            currentFrame = 0;
+            
+            statusElem.textContent = "Se procesează fiecare cadru...";
+            
+            await processVideoFrames(mediaRecorder);
+        });
+        
+        async function processVideoFrames(mediaRecorder) {
+            return new Promise((resolve) => {
+                const frameInterval = 1000 / 30; 
+                
+                video.pause();
+                
+                function processNextFrame() {
+                    if (video.currentTime >= video.duration) {
+                        mediaRecorder.stop();
+                        progressBar.textContent = "100%";
+                        progressBar.style.width = "100%";
+                        return resolve();
+                    }
+                    
+                    const progress = (video.currentTime / video.duration) * 100;
+                    progressBar.textContent = `${Math.round(progress)}%`;
+                    progressBar.style.width = `${progress}%`;
+                    
+                    if (useWebGLCheck.checked && glRenderer) {
+                        processFrameWebGL();
+                    } else {
+                        processFrameCanvas2D();
+                    }
+                    
+                    video.currentTime += frameInterval / 1000;
+                    
+                    video.addEventListener('seeked', function onSeeked() {
+                        video.removeEventListener('seeked', onSeeked);
+                        
+                        setTimeout(processNextFrame, 0);
+                    });
+                }
+                
+                processNextFrame();
+            });
+        }
+        
+        downloadBtn.addEventListener('click', () => {
+            if (!videoBlob) return;
+            
+            const url = URL.createObjectURL(videoBlob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'video-cu-efect.mp4';
+            a.click();
+            
+            setTimeout(() => URL.revokeObjectURL(url), 100);
+        });
+    </script>
+</body>
+</html>
