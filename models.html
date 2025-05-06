@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Model Swiper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      font-family: sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin: 20px;
+    }
+
+    .main-container {
+      display: flex;
+      width: 100%;
+      max-width: 1200px;
+      height: 90vh;
+      margin: 20px auto;
+    }
+
+    .card-section {
+      width: 50%;
+      padding: 10px;
+    }
+
+    .table-section {
+      width: 50%;
+      padding: 10px;
+    }
+
+    .card-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow-y: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .carousel {
+      position: relative;
+      width: 100%;
+      height: auto;
+      min-height: 250px;
+      max-height: 350px;
+      overflow: hidden;
+      border-radius: 16px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #0a0a0a;
+    }
+
+    .carousel-img {
+      width: 100%;
+      height: auto;
+      max-height: 350px;
+      object-fit: contain;
+      display: none;
+      border-radius: 10px;
+    }
+
+    .carousel-img.active {
+      display: block;
+    }
+
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    .carousel-btn.left {
+      left: 10px;
+    }
+
+    .carousel-btn.right {
+      right: 10px;
+    }
+
+    .info {
+      margin-top: 10px;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background: #2a2a2a;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      color: #fff;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #444;
+    }
+
+    .details {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    iframe, .cv-img {
+      width: 100%;
+      max-height: 200px;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+
+    .tracking-info {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .swipe-count {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+    
+    a {
+      color: #4e9eff;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tab-buttons {
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    .tab-btn {
+      padding: 10px 20px;
+      background-color: #2a2a2a;
+      border: none;
+      border-radius: 5px 5px 0 0;
+      color: #fff;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    .tab-btn.active {
+      background-color: #4e9eff;
+    }
+
+    .profile-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .profile-table th, .profile-table td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+
+    .profile-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .profile-table th {
+      background-color: #2a2a2a;
+      font-weight: bold;
+    }
+
+    .profile-table tbody tr {
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .profile-table tbody tr:hover {
+      background-color: #333;
+    }
+
+    .table-container {
+      height: calc(100% - 50px);
+      overflow-y: auto;
+      border-radius: 10px;
+    }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4e9eff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #438ae2;
+}
+  </style>
+</head>
+<body>
+
+
+<div class="main-container">
+  <div class="card-section">
+    <div class="card-container" id="cardContainer"></div>
+  </div>
+  
+  <div class="table-section">
+    <div class="tab-buttons">
+      <button class="tab-btn active" id="acceptedTab" onclick="switchTab('accepted')">Accepted</button>
+      <button class="tab-btn" id="rejectedTab" onclick="switchTab('rejected')">Rejected</button>
+    </div>
+    <div class="table-container">
+      <table class="profile-table">
+        <thead>
+          <tr>
+            <th>Name/Email</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody id="profileTableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+  const sheetURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKufsvBTBhRxK161zV1jSl_wM8TGdYfGlLLLTA8Ta_tw_ImkSir2a_u2ghAUXLXfmudaxxDe-AJnnX/pub?output=tsv";
+  let currentIndex = 0;
+  let responses = [];
+  let swipeTracker = {
+    left: [],
+    right: []
+  };
+  let currentSlide = 0;
+  let currentTab = 'accepted';
+
+  function loadTrackingData() {
+    const savedData = localStorage.getItem('modelSwiperTracking');
+    if (savedData) {
+      swipeTracker = JSON.parse(savedData);
+      updateTable();
+    }
+  }
+
+  function saveTrackingData() {
+    localStorage.setItem('modelSwiperTracking', JSON.stringify(swipeTracker));
+    updateTable();
+  }
+  
+  function formatUrl(url) {
+    if (!url) return '';
+    
+    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+      return 'https://' + url;
+    }
+    
+    return url;
+  }
+  
+  function createSocialLink(url, name) {
+    if (!url) return `<p><strong>${name}:</strong> N/A</p>`;
+    
+    const formattedUrl = formatUrl(url);
+    return `<p><strong>${name}:</strong> <a href="${formattedUrl}" target="_blank" rel="noopener noreferrer">${url}</a></p>`;
+  }
+
+  function fetchSheetData() {
+    fetch(sheetURL)
+      .then(res => res.text())
+      .then(text => {
+        const lines = text.trim().split('\n');
+        const headers = lines[0].split('\t');
+        responses = lines.slice(1).map(line => {
+          const values = line.split('\t');
+          const obj = {};
+          headers.forEach((h, i) => obj[h.trim()] = values[i]?.trim() || '');
+          return obj;
+        });
+        console.log(responses);
+        renderCard(currentIndex);
+        updateTable();
+      });
+  }
+
+  function formatSocialUrl(platform, username) {
+    if (!username) return '';
+    
+    username = username.trim().replace(/^@/, '');
+    
+    if (platform === 'Instagram') {
+      return `https://instagram.com/${username}`;
+    } else if (platform === 'TikTok') {
+      return `https://tiktok.com/@${username}`;
+    } else {
+      if (!username.startsWith('http://') && !username.startsWith('https://')) {
+        return 'https://' + username;
+      }
+      return username;
+    }
+  }
+
+  function createSocialLink(username, platform) {
+    if (!username) return `<p><strong>${platform}:</strong> N/A</p>`;
+    
+    const formattedUrl = formatSocialUrl(platform, username);
+    const displayName = username.trim().startsWith('@') ? username : '@' + username;
+    
+    return `<p><strong>${platform}:</strong> <a href="${formattedUrl}" target="_blank" rel="noopener noreferrer">${displayName}</a></p>`;
+  }
+
+  function renderCard(index) {
+    const container = document.getElementById("cardContainer");
+    container.innerHTML = '';
+    if (index >= responses.length) {
+      container.innerHTML = "<p>No more profiles available.</p>";
+      return;
+    }
+
+    const r = responses[index];
+    const headshotLinks = (r['Upload 1–3 headshots or portfolio pictures'] || '')
+      .split(',')
+      .map(link => {
+        const id = (link.match(/\/d\/([a-zA-Z0-9_-]+)\//) || link.match(/id=([a-zA-Z0-9_-]+)/))?.[1];
+        return id ? `https://drive.google.com/thumbnail?id=${id}&sz=w1000` : null;
+      }).filter(Boolean);
+
+    const cvLink = r['Please upload your CV and/or recent experience'] || '';
+    const cvId = (cvLink.match(/\/d\/([a-zA-Z0-9_-]+)\//) || cvLink.match(/id=([a-zA-Z0-9_-]+)/))?.[1];
+    let cvViewer = '';
+    if (cvId) {
+      if (cvLink.includes('.pdf')) {
+        cvViewer = `
+          <p><a href="${cvLink}" target="_blank" rel="noopener noreferrer">View CV/Experience (PDF)</a></p>
+          <iframe src="https://drive.google.com/file/d/${cvId}/preview" allow="autoplay"></iframe>
+        `;
+      } else {
+        cvViewer = `
+          <p><a href="${cvLink}" target="_blank" rel="noopener noreferrer">View CV/Experience</a></p>
+          <img src="https://drive.google.com/thumbnail?id=${cvId}" class="cv-img" />
+        `;
+      }
+    }
+
+    const card = document.createElement("div");
+    card.className = "card";
+    
+    let carouselHTML = '<div class="carousel">';
+    if (headshotLinks.length > 0) {
+      headshotLinks.forEach((img, i) => {
+        carouselHTML += `<img src="${img}" class="carousel-img ${i === 0 ? 'active' : ''}" alt="headshot ${i+1}" />`;
+      });
+      if (headshotLinks.length > 1) {
+        carouselHTML += `
+          <button class="carousel-btn left" onclick="carouselPrev()">◀</button>
+          <button class="carousel-btn right" onclick="carouselNext()">▶</button>
+        `;
+      }
+    } else {
+      carouselHTML += '<p>No images available</p>';
+    }
+    carouselHTML += '</div>';
+
+    const instagramLink = createSocialLink(r['Instagram Profile'], 'Instagram');
+
+    let tiktokLink = '';
+    let otherSocialLinks = '';
+
+    if (r['TikTok Profile']) {
+      tiktokLink = createSocialLink(r['TikTok Profile'], 'TikTok');
+    }
+
+    if (r['Other Social Media']) {
+      otherSocialLinks = createSocialLink(r['Other Social Media'], 'Other social media');
+    }
+
+    card.innerHTML = `
+      ${carouselHTML}
+      <div class="info">
+        <p><strong>Phone:</strong> ${r['Phone Number (WhatsApp preferred)']}</p>
+        <h3>${r['Email Address'] || 'No Email'}</h3>
+        <p><strong>Age:</strong> ${r['Age']} | <strong>Gender:</strong> ${r['Gender']}</p>
+        <p><strong>City:</strong> ${r['Where are you based? (City)']}</p>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="swipeLeft()">❌</button>
+        <button class="btn" onclick="swipeRight()">❤️</button>
+      </div>
+      <div class="details">
+        <p><strong>Height / Weight:</strong> ${r['Height (cm)']} / ${r['Weight (kg)']}</p>
+        <p><strong>Hair / Eyes:</strong> ${r['Hair color']} / ${r['Eye Color']}</p>
+        <p><strong>Features:</strong> ${r['Notable physical features? (tattoos, freckles, etc.) ']}</p>
+        <p><strong>Languages:</strong> ${r['What languages are you fluent in?']}</p>
+        <p><strong>About:</strong> ${r['How would you best describe yourself?']}</p>
+        <p><strong>Skills:</strong> ${r['Do you have any hidden talents or special skills? (ex: playing an instrument, a sport, painting, singing etc.)']}</p>
+        <p><strong>Hobbies:</strong> ${r['What are your hobbies/interests? (ex:fashion, cooking, art etc.)']}</p>
+        ${instagramLink}
+        ${tiktokLink}
+        ${otherSocialLinks}
+        <p><strong>Projects:</strong> ${r['What kind of projects are you most interested in?']}</p>
+        <p><strong>Available in person:</strong> ${r['Are you available for in-person shoots?']}</p>
+        <p><strong>Travel:</strong> ${r['Are you open to travel?']}</p>
+        <div><strong>CV / Experience:</strong>${cvViewer || '<p>No CV uploaded.</p>'}</div>
+      </div>
+    `;
+    container.appendChild(card);
+    currentSlide = 0;
+  }
+
+  function swipeLeft() {
+    const currentProfile = responses[currentIndex];
+    if (currentProfile) {
+      const profileId = currentProfile['Email Address'] || `profile-${currentIndex}`;
+      if (!swipeTracker.left.includes(profileId)) {
+        swipeTracker.left.push(profileId);
+        swipeTracker.right = swipeTracker.right.filter(id => id !== profileId);
+        saveTrackingData();
+      }
+    }
+    currentIndex++;
+    renderCard(currentIndex);
+  }
+
+  function swipeRight() {
+    const currentProfile = responses[currentIndex];
+    if (currentProfile) {
+      const profileId = currentProfile['Email Address'] || `profile-${currentIndex}`;
+      if (!swipeTracker.right.includes(profileId)) {
+        swipeTracker.right.push(profileId);
+        swipeTracker.left = swipeTracker.left.filter(id => id !== profileId);
+        saveTrackingData();
+      }
+    }
+    currentIndex++;
+    renderCard(currentIndex);
+  }
+
+  function carouselNext() {
+    const slides = document.querySelectorAll('.carousel-img');
+    if (slides.length > 0) {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }
+  }
+
+  function carouselPrev() {
+    const slides = document.querySelectorAll('.carousel-img');
+    if (slides.length > 0) {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }
+  }
+  
+  function switchTab(tab) {
+    currentTab = tab;
+    
+    document.getElementById('acceptedTab').classList.toggle('active', tab === 'accepted');
+    document.getElementById('rejectedTab').classList.toggle('active', tab === 'rejected');
+    
+    updateTable();
+  }
+  
+  function updateTable() {
+    const tableBody = document.getElementById('profileTableBody');
+    tableBody.innerHTML = '';
+    
+    const profileList = currentTab === 'accepted' ? swipeTracker.right : swipeTracker.left;
+    
+    profileList.forEach(profileId => {
+      const profile = responses.find(r => {
+        const email = r['Email Address'] || '';
+        const idx = responses.indexOf(r);
+        return email === profileId || `profile-${idx}` === profileId;
+      });
+      
+      if (profile) {
+        const row = document.createElement('tr');
+        const email = profile['Email Address'] || `Profile ${responses.indexOf(profile)}`;
+        const phone = profile['Phone Number (WhatsApp preferred)'] || 'N/A';
+        
+        row.innerHTML = `
+          <td>${email}</td>
+          <td>${phone}</td>
+        `;
+        
+        row.onclick = function() {
+          const index = responses.indexOf(profile);
+          if (index !== -1) {
+            renderProfile(index);
+          }
+        };
+        
+        tableBody.appendChild(row);
+      }
+    });
+    
+    if (profileList.length === 0) {
+      const row = document.createElement('tr');
+      row.innerHTML = `<td colspan="2">No ${currentTab === 'accepted' ? 'accepted' : 'rejected'} profiles</td>`;
+      tableBody.appendChild(row);
+    }
+  }
+  
+  function renderProfile(index) {
+    renderCard(index);
+  }
+
+  loadTrackingData();
+  fetchSheetData();
+</script>
+
+</body>
+</html>

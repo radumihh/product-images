@@ -1,0 +1,17 @@
+{
+    "name": "proiect",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "test": "run",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@imgly/background-removal-node": "^1.4.5",
+        "fs": "^0.0.1-security",
+        "jimp": "^1.6.0"
+    }
+}

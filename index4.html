@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IMG.LY Background Removal</title>
+</head>
+<body>
+  <h2>🖼️ Remove Background In-Browser</h2>
+  <input type="file" accept="image/*" id="upload">
+  <p id="output">Upload an image to get started.</p>
+  <img id="result" alt="Result" style="max-width: 100%; margin-top: 20px;">
+
+  <script type="module">
+    import * as removeBackgroundModule from 'https://cdn.jsdelivr.net/npm/@imgly/background-removal/+esm';
+    const removeBackground = removeBackgroundModule.default;
+
+    const uploadInput = document.getElementById('upload');
+    const outputText = document.getElementById('output');
+    const resultImage = document.getElementById('result');
+
+    uploadInput.addEventListener('change', async (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      outputText.innerText = '⏳ Processing...';
+
+      try {
+        const resultBlob = await removeBackground(file);
+        const url = URL.createObjectURL(resultBlob);
+        resultImage.src = url;
+        outputText.innerText = '✅ Done!';
+      } catch (err) {
+        console.error(err);
+        outputText.innerText = '❌ Error removing background.';
+      }
+    });
+  </script>
+</body>
+</html>

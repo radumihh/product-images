@@ -1,0 +1,3076 @@
+[
+  {
+    "id": 1,
+    "nume": "Product 1",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000001",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%201/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%201/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%201/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%201/1.jpg"
+  },
+  {
+    "id": 2,
+    "nume": "Product 2",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000002",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2010/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2010/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2010/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2010/1.jpg"
+  },
+  {
+    "id": 3,
+    "nume": "Product 3",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000003",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2011/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2011/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2011/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2011/1.jpg"
+  },
+  {
+    "id": 4,
+    "nume": "Product 4",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000004",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2012/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2012/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2012/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2012/1.jpg"
+  },
+  {
+    "id": 5,
+    "nume": "Product 5",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000005",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2013/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2013/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2013/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2013/1.jpg"
+  },
+  {
+    "id": 6,
+    "nume": "Product 6",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000006",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2014/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2014/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2014/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2014/1.jpg"
+  },
+  {
+    "id": 7,
+    "nume": "Product 7",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000007",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2015/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2015/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2015/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2015/1.jpg"
+  },
+  {
+    "id": 8,
+    "nume": "Product 8",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000008",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2016/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2016/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2016/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2016/1.jpg"
+  },
+  {
+    "id": 9,
+    "nume": "Product 9",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000009",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2017/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2017/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2017/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2017/1.jpg"
+  },
+  {
+    "id": 10,
+    "nume": "Product 10",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000010",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2018/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2018/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2018/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2018/1.jpg"
+  },
+  {
+    "id": 11,
+    "nume": "Product 11",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000011",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2019/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2019/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2019/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2019/1.jpg"
+  },
+  {
+    "id": 12,
+    "nume": "Product 12",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000012",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%202/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%202/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%202/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%202/1.jpg"
+  },
+  {
+    "id": 13,
+    "nume": "Product 13",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000013",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2020/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2020/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2020/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2020/1.jpg"
+  },
+  {
+    "id": 14,
+    "nume": "Product 14",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000014",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2021/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2021/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2021/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2021/1.jpg"
+  },
+  {
+    "id": 15,
+    "nume": "Product 15",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000015",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2022/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2022/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2022/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2022/1.jpg"
+  },
+  {
+    "id": 16,
+    "nume": "Product 16",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000016",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2023/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2023/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2023/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2023/1.jpg"
+  },
+  {
+    "id": 17,
+    "nume": "Product 17",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000017",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2024/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2024/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2024/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2024/1.jpg"
+  },
+  {
+    "id": 18,
+    "nume": "Product 18",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000018",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2025/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2025/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2025/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%2025/1.jpg"
+  },
+  {
+    "id": 19,
+    "nume": "Product 19",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000019",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%203/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%203/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%203/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%203/1.jpg"
+  },
+  {
+    "id": 20,
+    "nume": "Product 20",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000020",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%204/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%204/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%204/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%204/1.jpg"
+  },
+  {
+    "id": 21,
+    "nume": "Product 21",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000021",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%205/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%205/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%205/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%205/1.jpg"
+  },
+  {
+    "id": 22,
+    "nume": "Product 22",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000022",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%206/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%206/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%206/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%206/1.jpg"
+  },
+  {
+    "id": 23,
+    "nume": "Product 23",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000023",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%207/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%207/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%207/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%207/1.jpg"
+  },
+  {
+    "id": 24,
+    "nume": "Product 24",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000024",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%208/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%208/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%208/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%208/1.jpg"
+  },
+  {
+    "id": 25,
+    "nume": "Product 25",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000025",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%209/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%209/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%209/3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/batista%209/1.jpg"
+  },
+  {
+    "id": 26,
+    "nume": "Carbon Fiber Toilet Bag",
+    "pret": "1499",
+    "materiale": "100% Carbonium",
+    "info-aditional": "",
+    "sourceImages": [
+      "borseta1\\FK1A0122-Edit.jpg",
+      "borseta1\\FK1A0124-Edit.jpg",
+      "borseta1\\FK1A0128-Edit.jpg"
+    ],
+    "culoare": "Grey",
+    "product_code": "MANACC101832",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/borseta1_parent/borseta1/FK1A0122-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/borseta1_parent/borseta1/FK1A0124-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/borseta1_parent/borseta1/FK1A0128-Edit.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/borseta1_parent/borseta1/FK1A0122-Edit.jpg"
+  },
+  {
+    "id": 27,
+    "nume": "Leather Loafers",
+    "pret": "1999",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "ciupici1\\FK1A9764-Edit.jpg",
+      "ciupici1\\FK1A9770-Edit.jpg",
+      "ciupici1\\FK1A9809-Edit.jpg",
+      "ciupici1\\FK1A9887-Edit-2 copy.jpg",
+      "ciupici1\\FK1A9887-Edit-2.jpg"
+    ],
+    "culoare": "Black",
+    "product_code": "MANSHO100634",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici1_parent/ciupici1/FK1A9764-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici1_parent/ciupici1/FK1A9770-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici1_parent/ciupici1/FK1A9809-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici1_parent/ciupici1/FK1A9887-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici1_parent/ciupici1/FK1A9887-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici1_parent/ciupici1/FK1A9764-Edit.jpg"
+  },
+  {
+    "id": 28,
+    "nume": "Leather Loafers",
+    "pret": "1999",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "ciupici2\\FK1A9766-Edit.jpg",
+      "ciupici2\\FK1A9771-Edit.jpg",
+      "ciupici2\\FK1A9805-Edit.jpg",
+      "ciupici2\\FK1A9888-Edit-2 copy.jpg",
+      "ciupici2\\FK1A9888-Edit-2.jpg"
+    ],
+    "culoare": "Navy Blue",
+    "product_code": "MANSHO100634",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici2_parent/ciupici2/FK1A9766-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici2_parent/ciupici2/FK1A9771-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici2_parent/ciupici2/FK1A9805-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici2_parent/ciupici2/FK1A9888-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici2_parent/ciupici2/FK1A9888-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici2_parent/ciupici2/FK1A9766-Edit.jpg"
+  },
+  {
+    "id": 29,
+    "nume": "Leather Loafers",
+    "pret": "1999",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "ciupici3\\FK1A9767-Edit.jpg",
+      "ciupici3\\FK1A9772-Edit.jpg",
+      "ciupici3\\FK1A9807-Edit.jpg",
+      "ciupici3\\FK1A9889-Edit-2 copy.jpg",
+      "ciupici3\\FK1A9889-Edit-2.jpg"
+    ],
+    "culoare": "Brown",
+    "product_code": "MANSHO100634",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici3_parent/ciupici3/FK1A9767-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici3_parent/ciupici3/FK1A9772-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici3_parent/ciupici3/FK1A9807-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici3_parent/ciupici3/FK1A9889-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici3_parent/ciupici3/FK1A9889-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/ciupici3_parent/ciupici3/FK1A9767-Edit.jpg"
+  },
+  {
+    "id": 30,
+    "nume": "Product 30",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000030",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%201/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%201/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%201/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%201/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%201/1.jpg"
+  },
+  {
+    "id": 31,
+    "nume": "Product 31",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000031",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2010/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2010/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2010/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2010/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2010/1.jpg"
+  },
+  {
+    "id": 32,
+    "nume": "Product 32",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000032",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2011/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2011/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2011/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2011/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2011/1.jpg"
+  },
+  {
+    "id": 33,
+    "nume": "Product 33",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000033",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2012/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2012/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2012/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2012/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2012/1.jpg"
+  },
+  {
+    "id": 34,
+    "nume": "Product 34",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000034",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2013/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2013/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2013/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2013/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2013/1.jpg"
+  },
+  {
+    "id": 35,
+    "nume": "Product 35",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000035",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2014/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2014/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2014/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2014/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2014/1.jpg"
+  },
+  {
+    "id": 36,
+    "nume": "Product 36",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000036",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2015/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2015/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2015/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2015/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2015/1.jpg"
+  },
+  {
+    "id": 37,
+    "nume": "Product 37",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000037",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2016/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2016/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2016/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2016/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2016/1.jpg"
+  },
+  {
+    "id": 38,
+    "nume": "Product 38",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000038",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2017/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2017/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2017/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2017/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2017/1.jpg"
+  },
+  {
+    "id": 39,
+    "nume": "Product 39",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000039",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2018/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2018/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2018/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2018/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2018/1.jpg"
+  },
+  {
+    "id": 40,
+    "nume": "Product 40",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000040",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2019/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2019/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2019/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2019/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2019/1.jpg"
+  },
+  {
+    "id": 41,
+    "nume": "Product 41",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000041",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%202/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%202/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%202/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%202/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%202/1.jpg"
+  },
+  {
+    "id": 42,
+    "nume": "Product 42",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000042",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2020/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2020/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2020/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2020/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2020/1.jpg"
+  },
+  {
+    "id": 43,
+    "nume": "Product 43",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000043",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2021/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2021/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2021/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2021/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2021/1.jpg"
+  },
+  {
+    "id": 44,
+    "nume": "Product 44",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000044",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2022/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2022/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2022/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2022/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2022/1.jpg"
+  },
+  {
+    "id": 45,
+    "nume": "Product 45",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000045",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2023/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2023/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2023/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2023/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2023/1.jpg"
+  },
+  {
+    "id": 46,
+    "nume": "Product 46",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000046",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2024/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2024/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2024/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2024/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2024/1.jpg"
+  },
+  {
+    "id": 47,
+    "nume": "Product 47",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000047",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2025/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2025/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2025/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2025/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2025/1.jpg"
+  },
+  {
+    "id": 48,
+    "nume": "Product 48",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000048",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2026/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2026/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2026/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2026/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2026/1.jpg"
+  },
+  {
+    "id": 49,
+    "nume": "Product 49",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000049",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2027/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2027/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2027/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2027/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2027/1.jpg"
+  },
+  {
+    "id": 50,
+    "nume": "Product 50",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000050",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2028/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2028/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2028/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2028/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2028/1.jpg"
+  },
+  {
+    "id": 51,
+    "nume": "Product 51",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000051",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2029/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2029/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2029/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2029/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2029/1.jpg"
+  },
+  {
+    "id": 52,
+    "nume": "Product 52",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000052",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%203/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%203/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%203/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%203/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%203/1.jpg"
+  },
+  {
+    "id": 53,
+    "nume": "Product 53",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000053",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2030/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2030/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2030/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2030/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%2030/1.jpg"
+  },
+  {
+    "id": 54,
+    "nume": "Product 54",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000054",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%204/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%204/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%204/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%204/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%204/1.jpg"
+  },
+  {
+    "id": 55,
+    "nume": "Product 55",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000055",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%205/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%205/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%205/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%205/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%205/1.jpg"
+  },
+  {
+    "id": 56,
+    "nume": "Product 56",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000056",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%206/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%206/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%206/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%206/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%206/1.jpg"
+  },
+  {
+    "id": 57,
+    "nume": "Product 57",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000057",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%207/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%207/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%207/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%207/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%207/1.jpg"
+  },
+  {
+    "id": 58,
+    "nume": "Product 58",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000058",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%208/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%208/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%208/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%208/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%208/1.jpg"
+  },
+  {
+    "id": 59,
+    "nume": "Product 59",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000059",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%209/1.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%209/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%209/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%209/4.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cravata%209/1.jpg"
+  },
+  {
+    "id": 60,
+    "nume": "Product 60",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "BLK P37.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000060",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-1/BLK%20P37.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-1/BLK%20P37.JPG"
+  },
+  {
+    "id": 61,
+    "nume": "Product 61",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RGC B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000061",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-10/SP-RGC%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-10/SP-RGC%20B.JPG"
+  },
+  {
+    "id": 62,
+    "nume": "Product 62",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RH B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000062",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-11/SP-RH%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-11/SP-RH%20B.JPG"
+  },
+  {
+    "id": 63,
+    "nume": "Product 63",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RP A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000063",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-12/SP-RP%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-12/SP-RP%20A.JPG"
+  },
+  {
+    "id": 64,
+    "nume": "Product 64",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RW-A_1000px.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000064",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-13/SP-RW-A_1000px.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-13/SP-RW-A_1000px.JPG"
+  },
+  {
+    "id": 65,
+    "nume": "Product 65",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RW-R_1000px.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000065",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-14/SP-RW-R_1000px.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-14/SP-RW-R_1000px.JPG"
+  },
+  {
+    "id": 66,
+    "nume": "Product 66",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RW-V_1000px.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000066",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-15/SP-RW-V_1000px.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-15/SP-RW-V_1000px.JPG"
+  },
+  {
+    "id": 67,
+    "nume": "Product 67",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RZ A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000067",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-16/SP-RZ%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-16/SP-RZ%20A.JPG"
+  },
+  {
+    "id": 68,
+    "nume": "Product 68",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-RZ B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000068",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-17/SP-RZ%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-17/SP-RZ%20B.JPG"
+  },
+  {
+    "id": 69,
+    "nume": "Product 69",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-SBL E.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000069",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-18/SP-SBL%20E.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-18/SP-SBL%20E.JPG"
+  },
+  {
+    "id": 70,
+    "nume": "Product 70",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-SHE B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000070",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-19/SP-SHE%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-19/SP-SHE%20B.JPG"
+  },
+  {
+    "id": 71,
+    "nume": "Product 71",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "PERL-01 A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000071",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-2/PERL-01%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-2/PERL-01%20A.JPG"
+  },
+  {
+    "id": 72,
+    "nume": "Product 72",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-ZM A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000072",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-20/SP-ZM%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-20/SP-ZM%20A.JPG"
+  },
+  {
+    "id": 73,
+    "nume": "Product 73",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-ZM C.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000073",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-21/SP-ZM%20C.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-21/SP-ZM%20C.JPG"
+  },
+  {
+    "id": 74,
+    "nume": "Product 74",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SPK-F A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000074",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-22/SPK-F%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-22/SPK-F%20A.JPG"
+  },
+  {
+    "id": 75,
+    "nume": "Product 75",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SPK-F B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000075",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-23/SPK-F%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-23/SPK-F%20B.JPG"
+  },
+  {
+    "id": 76,
+    "nume": "Product 76",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SPK-F C.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000076",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-24/SPK-F%20C.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-24/SPK-F%20C.JPG"
+  },
+  {
+    "id": 77,
+    "nume": "Product 77",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SW169 L.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000077",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-25/SW169%20L.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-25/SW169%20L.JPG"
+  },
+  {
+    "id": 78,
+    "nume": "Product 78",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SW202 C.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000078",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-26/SW202%20C.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-26/SW202%20C.JPG"
+  },
+  {
+    "id": 79,
+    "nume": "Product 79",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SW204 B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000079",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-27/SW204%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-27/SW204%20B.JPG"
+  },
+  {
+    "id": 80,
+    "nume": "Product 80",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SW205 A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000080",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-28/SW205%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-28/SW205%20A.JPG"
+  },
+  {
+    "id": 81,
+    "nume": "Product 81",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SW205 B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000081",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-29/SW205%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-29/SW205%20B.JPG"
+  },
+  {
+    "id": 82,
+    "nume": "Product 82",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "PERL-01 B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000082",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-3/PERL-01%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-3/PERL-01%20B.JPG"
+  },
+  {
+    "id": 83,
+    "nume": "Product 83",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SW205 C.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000083",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-30/SW205%20C.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-30/SW205%20C.JPG"
+  },
+  {
+    "id": 84,
+    "nume": "Product 84",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "TC-SP-A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000084",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-31/TC-SP-A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-31/TC-SP-A.JPG"
+  },
+  {
+    "id": 85,
+    "nume": "Product 85",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "TC-SP-B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000085",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-32/TC-SP-B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-32/TC-SP-B.JPG"
+  },
+  {
+    "id": 86,
+    "nume": "Product 86",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "TC-SP-C.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000086",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-33/TC-SP-C.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-33/TC-SP-C.JPG"
+  },
+  {
+    "id": 87,
+    "nume": "Product 87",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "TC_15A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000087",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-34/TC_15A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-34/TC_15A.JPG"
+  },
+  {
+    "id": 88,
+    "nume": "Product 88",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "TC_15B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000088",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-35/TC_15B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-35/TC_15B.JPG"
+  },
+  {
+    "id": 89,
+    "nume": "Product 89",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "VS-07 A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000089",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-36/VS-07%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-36/VS-07%20A.JPG"
+  },
+  {
+    "id": 90,
+    "nume": "Product 90",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-CNX B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000090",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-4/SP-CNX%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-4/SP-CNX%20B.JPG"
+  },
+  {
+    "id": 91,
+    "nume": "Product 91",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-D A.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000091",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-5/SP-D%20A.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-5/SP-D%20A.JPG"
+  },
+  {
+    "id": 92,
+    "nume": "Product 92",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-D B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000092",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-6/SP-D%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-6/SP-D%20B.JPG"
+  },
+  {
+    "id": 93,
+    "nume": "Product 93",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-MOP-OW B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000093",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-7/SP-MOP-OW%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-7/SP-MOP-OW%20B.JPG"
+  },
+  {
+    "id": 94,
+    "nume": "Product 94",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-Q B.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000094",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-8/SP-Q%20B.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-8/SP-Q%20B.JPG"
+  },
+  {
+    "id": 95,
+    "nume": "Product 95",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "SP-Q E.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000095",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-9/SP-Q%20E.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cufflink-9/SP-Q%20E.JPG"
+  },
+  {
+    "id": 96,
+    "nume": "Double-Face Belt",
+    "pret": "499",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "curea-double\\1.png",
+      "curea-double\\10.png",
+      "curea-double\\2.png",
+      "curea-double\\3.png",
+      "curea-double\\4.png",
+      "curea-double\\5.png",
+      "curea-double\\6.png",
+      "curea-double\\7.png",
+      "curea-double\\8.png",
+      "curea-double\\9.png"
+    ],
+    "culoare": "",
+    "product_code": "MANACC101771",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/1.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/10.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/2.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/3.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/4.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/5.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/6.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/7.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/8.png",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/9.png"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/curea-double_parent/curea-double/1.png"
+  },
+  {
+    "id": 97,
+    "nume": "The Personalized Socks Box – Signature Edition",
+    "pret": "999",
+    "materiale": "100% Mercerized Cotton, 100% Bamboo, 100% Merino Wool, 100% Cashmere",
+    "info-aditional": "",
+    "sourceImages": [
+      "cutie1\\FK1A0110-Edit.jpg",
+      "cutie1\\FK1A0117-Edit-2.jpg",
+      "cutie1\\FK1A0120-Edit.jpg"
+    ],
+    "culoare": "",
+    "product_code": "UNIACC100052",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cutie1_parent/cutie1/FK1A0110-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cutie1_parent/cutie1/FK1A0117-Edit-2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/cutie1_parent/cutie1/FK1A0120-Edit.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/cutie1_parent/cutie1/FK1A0110-Edit.jpg"
+  },
+  {
+    "id": 98,
+    "nume": "Product 98",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta-3\\IMG_5432.JPG",
+      "geanta-3\\IMG_5434.JPG",
+      "geanta-3\\IMG_5436.JPG",
+      "geanta-3\\IMG_5437.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000098",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-3_parent%20X/geanta-3/IMG_5432.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-3_parent%20X/geanta-3/IMG_5434.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-3_parent%20X/geanta-3/IMG_5436.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-3_parent%20X/geanta-3/IMG_5437.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-3_parent%20X/geanta-3/IMG_5432.JPG"
+  },
+  {
+    "id": 99,
+    "nume": "Phyton Leather Bag",
+    "pret": "1999",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta-4\\IMG_5411.JPG",
+      "geanta-4\\IMG_5413.JPG",
+      "geanta-4\\IMG_5414.JPG",
+      "geanta-4\\IMG_5415.JPG"
+    ],
+    "culoare": "Yellow",
+    "product_code": "WOMACC100014",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-4_parent/geanta-4/IMG_5411.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-4_parent/geanta-4/IMG_5413.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-4_parent/geanta-4/IMG_5414.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-4_parent/geanta-4/IMG_5415.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-4_parent/geanta-4/IMG_5411.JPG"
+  },
+  {
+    "id": 100,
+    "nume": "Product 100",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta-5\\IMG_5460.JPG",
+      "geanta-5\\IMG_5462.JPG",
+      "geanta-5\\IMG_5463.JPG",
+      "geanta-5\\IMG_5464.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000100",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-5_parent%20X/geanta-5/IMG_5460.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-5_parent%20X/geanta-5/IMG_5462.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-5_parent%20X/geanta-5/IMG_5463.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-5_parent%20X/geanta-5/IMG_5464.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-5_parent%20X/geanta-5/IMG_5460.JPG"
+  },
+  {
+    "id": 101,
+    "nume": "Phyton Leather Bag",
+    "pret": "1999",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta-6\\IMG_5405.JPG",
+      "geanta-6\\IMG_5407.JPG",
+      "geanta-6\\IMG_5408.JPG",
+      "geanta-6\\IMG_5410.JPG"
+    ],
+    "culoare": "Gold",
+    "product_code": "WOMACC100014",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-6_parent/geanta-6/IMG_5405.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-6_parent/geanta-6/IMG_5407.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-6_parent/geanta-6/IMG_5408.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-6_parent/geanta-6/IMG_5410.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-6_parent/geanta-6/IMG_5405.JPG"
+  },
+  {
+    "id": 102,
+    "nume": "Product 102",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta-7\\IMG_5441 copyy.jpg",
+      "geanta-7\\IMG_5441.JPG",
+      "geanta-7\\IMG_5444.JPG",
+      "geanta-7\\IMG_5445.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000102",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-7_parent%20X/geanta-7/IMG_5441%20copyy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-7_parent%20X/geanta-7/IMG_5441.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-7_parent%20X/geanta-7/IMG_5444.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-7_parent%20X/geanta-7/IMG_5445.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-7_parent%20X/geanta-7/IMG_5441%20copyy.jpg"
+  },
+  {
+    "id": 103,
+    "nume": "Product 103",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta-femei-1\\IMG_5417.JPG",
+      "geanta-femei-1\\IMG_5419.JPG",
+      "geanta-femei-1\\IMG_5420.JPG",
+      "geanta-femei-1\\IMG_5422.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000103",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-1_parent%20X/geanta-femei-1/IMG_5417.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-1_parent%20X/geanta-femei-1/IMG_5419.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-1_parent%20X/geanta-femei-1/IMG_5420.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-1_parent%20X/geanta-femei-1/IMG_5422.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-1_parent%20X/geanta-femei-1/IMG_5417.JPG"
+  },
+  {
+    "id": 104,
+    "nume": "Phyton Leather Bag",
+    "pret": "1999",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta-femei-2\\IMG_5448.JPG",
+      "geanta-femei-2\\IMG_5452.JPG",
+      "geanta-femei-2\\IMG_5453.JPG",
+      "geanta-femei-2\\IMG_5459.JPG"
+    ],
+    "culoare": "Blue",
+    "product_code": "WOMACC100014",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-2_parent/geanta-femei-2/IMG_5448.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-2_parent/geanta-femei-2/IMG_5452.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-2_parent/geanta-femei-2/IMG_5453.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-2_parent/geanta-femei-2/IMG_5459.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta-femei-2_parent/geanta-femei-2/IMG_5448.JPG"
+  },
+  {
+    "id": 105,
+    "nume": "Product 105",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "geanta=8\\IMG_5424.JPG",
+      "geanta=8\\IMG_5427.JPG",
+      "geanta=8\\IMG_5428.JPG",
+      "geanta=8\\IMG_5429.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000105",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta%3D8_parent%20X/geanta%3D8/IMG_5424.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta%3D8_parent%20X/geanta%3D8/IMG_5427.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta%3D8_parent%20X/geanta%3D8/IMG_5428.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta%3D8_parent%20X/geanta%3D8/IMG_5429.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/geanta%3D8_parent%20X/geanta%3D8/IMG_5424.JPG"
+  },
+  {
+    "id": 106,
+    "nume": "Patent Leather Shoes",
+    "pret": "1999",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "",
+    "sourceImages": [
+      "lac1\\FK1A9782-Edit.jpg",
+      "lac1\\FK1A9878-Edit-2 copy.jpg",
+      "lac1\\FK1A9878-Edit-2.jpg",
+      "lac1\\FK1A9895.jpg",
+      "lac1\\FK1A9903-Edit.jpg"
+    ],
+    "culoare": "Black",
+    "product_code": "MANSHO100638",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/lac1_parent/lac1/FK1A9782-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/lac1_parent/lac1/FK1A9878-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/lac1_parent/lac1/FK1A9878-Edit-2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/lac1_parent/lac1/FK1A9895.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/lac1_parent/lac1/FK1A9903-Edit.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/lac1_parent/lac1/FK1A9782-Edit.jpg"
+  },
+  {
+    "id": 107,
+    "nume": "Product 107",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-10\\B_11516 copy.jpg",
+      "leather-10\\B_11518 copy.jpg",
+      "leather-10\\B_11519 copy.jpg",
+      "leather-10\\B_11592 copy.jpg",
+      "leather-10\\B_11619 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000107",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-10_parent%20X/leather-10/B_11516%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-10_parent%20X/leather-10/B_11518%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-10_parent%20X/leather-10/B_11519%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-10_parent%20X/leather-10/B_11592%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-10_parent%20X/leather-10/B_11619%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-10_parent%20X/leather-10/B_11516%20copy.jpg"
+  },
+  {
+    "id": 108,
+    "nume": "Product 108",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-11\\B_11525 copy.jpg",
+      "leather-11\\B_11526 copy.jpg",
+      "leather-11\\B_11529 copy.jpg",
+      "leather-11\\B_11538 copy.jpg",
+      "leather-11\\B_11540 copy.jpg",
+      "leather-11\\B_11542 copy.jpg",
+      "leather-11\\B_11599 copy.jpg",
+      "leather-11\\B_11602 copy.jpg",
+      "leather-11\\B_11688 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000108",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11525%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11526%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11529%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11538%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11540%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11542%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11599%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11602%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11688%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-11_parent%20X/leather-11/B_11525%20copy.jpg"
+  },
+  {
+    "id": 109,
+    "nume": "Product 109",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-12\\B_11532 copy.jpg",
+      "leather-12\\B_11534 copy.jpg",
+      "leather-12\\B_11536 copy.jpg",
+      "leather-12\\B_11544 copy.jpg",
+      "leather-12\\B_11546 copy.jpg",
+      "leather-12\\B_11547 copy.jpg",
+      "leather-12\\B_11604 copy.jpg",
+      "leather-12\\B_11605 copy.jpg",
+      "leather-12\\B_11690 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000109",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11532%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11534%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11536%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11544%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11546%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11547%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11604%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11605%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11690%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-12_parent%20X/leather-12/B_11532%20copy.jpg"
+  },
+  {
+    "id": 110,
+    "nume": "Product 110",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-13\\B_11511 copy.jpg",
+      "leather-13\\B_11576 copy.jpg",
+      "leather-13\\B_11578 copy.jpg",
+      "leather-13\\B_11595 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000110",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-13_parent%20X/leather-13/B_11511%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-13_parent%20X/leather-13/B_11576%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-13_parent%20X/leather-13/B_11578%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-13_parent%20X/leather-13/B_11595%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-13_parent%20X/leather-13/B_11511%20copy.jpg"
+  },
+  {
+    "id": 111,
+    "nume": "Product 111",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-14\\B_11512 copy.jpg",
+      "leather-14\\B_11514 copy.jpg",
+      "leather-14\\B_11575 copy.jpg",
+      "leather-14\\B_11577 copy.jpg",
+      "leather-14\\B_11598 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000111",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-14_parent%20X/leather-14/B_11512%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-14_parent%20X/leather-14/B_11514%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-14_parent%20X/leather-14/B_11575%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-14_parent%20X/leather-14/B_11577%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-14_parent%20X/leather-14/B_11598%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-14_parent%20X/leather-14/B_11512%20copy.jpg"
+  },
+  {
+    "id": 112,
+    "nume": "Product 112",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-15\\B_11561 copy.jpg",
+      "leather-15\\B_11562 copy.jpg",
+      "leather-15\\B_11585 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000112",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-15_parent%20X/leather-15/B_11561%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-15_parent%20X/leather-15/B_11562%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-15_parent%20X/leather-15/B_11585%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-15_parent%20X/leather-15/B_11561%20copy.jpg"
+  },
+  {
+    "id": 113,
+    "nume": "Product 113",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-16\\B_11557 copy.jpg",
+      "leather-16\\B_11579 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000113",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-16_parent%20X/leather-16/B_11557%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-16_parent%20X/leather-16/B_11579%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-16_parent%20X/leather-16/B_11557%20copy.jpg"
+  },
+  {
+    "id": 114,
+    "nume": "Product 114",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-4\\B_11477 copy.jpg",
+      "leather-4\\B_11478 copy.jpg",
+      "leather-4\\B_11481 copy.jpg",
+      "leather-4\\B_11613 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000114",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-4_parent%20X/leather-4/B_11477%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-4_parent%20X/leather-4/B_11478%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-4_parent%20X/leather-4/B_11481%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-4_parent%20X/leather-4/B_11613%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-4_parent%20X/leather-4/B_11477%20copy.jpg"
+  },
+  {
+    "id": 115,
+    "nume": "Tablet Zip Case",
+    "pret": "599",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "Width=35 cm, Height=25,5 cm",
+    "sourceImages": [
+      "leather-5\\B_11484 copy.jpg",
+      "leather-5\\B_11485 copy.jpg",
+      "leather-5\\B_11488 copy.jpg",
+      "leather-5\\B_11616 copy.jpg"
+    ],
+    "culoare": "Black",
+    "product_code": "UNIACC100004",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-5_parent/leather-5/B_11484%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-5_parent/leather-5/B_11485%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-5_parent/leather-5/B_11488%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-5_parent/leather-5/B_11616%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-5_parent/leather-5/B_11484%20copy.jpg"
+  },
+  {
+    "id": 116,
+    "nume": "Tablet Zip Case",
+    "pret": "599",
+    "materiale": "100% Natural Leather",
+    "info-aditional": "Width=32 cm, Height=21,5 cm",
+    "sourceImages": [
+      "leather-6\\B_11489 copy.jpg",
+      "leather-6\\B_11491 copy.jpg",
+      "leather-6\\B_11492 copy.jpg",
+      "leather-6\\B_11615 copy.jpg"
+    ],
+    "culoare": "Burgundy",
+    "product_code": "UNIACC100004",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-6_parent/leather-6/B_11489%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-6_parent/leather-6/B_11491%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-6_parent/leather-6/B_11492%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-6_parent/leather-6/B_11615%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-6_parent/leather-6/B_11489%20copy.jpg"
+  },
+  {
+    "id": 117,
+    "nume": "Product 117",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-7\\B_11495 copy.jpg",
+      "leather-7\\B_11497 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000117",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-7_parent/leather-7/B_11495%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-7_parent/leather-7/B_11497%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-7_parent/leather-7/B_11495%20copy.jpg"
+  },
+  {
+    "id": 118,
+    "nume": "Product 118",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-8\\B_11499 copy.jpg",
+      "leather-8\\B_11503 copy.jpg",
+      "leather-8\\B_11590 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000118",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-8_parent/leather-8/B_11499%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-8_parent/leather-8/B_11503%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-8_parent/leather-8/B_11590%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-8_parent/leather-8/B_11499%20copy.jpg"
+  },
+  {
+    "id": 119,
+    "nume": "Product 119",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather-9\\B_11512 copy.jpg",
+      "leather-9\\B_11514 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000119",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-9_parent/leather-9/B_11512%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-9_parent/leather-9/B_11514%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather-9_parent/leather-9/B_11512%20copy.jpg"
+  },
+  {
+    "id": 120,
+    "nume": "Product 120",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather1\\B_11445 copy.jpg",
+      "leather1\\B_11446 copy.jpg",
+      "leather1\\B_11468 copy.jpg",
+      "leather1\\B_11587 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000120",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather1_parent%20X/leather1/B_11445%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather1_parent%20X/leather1/B_11446%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather1_parent%20X/leather1/B_11468%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather1_parent%20X/leather1/B_11587%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather1_parent%20X/leather1/B_11445%20copy.jpg"
+  },
+  {
+    "id": 121,
+    "nume": "Product 121",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather2\\B_11454 copy.jpg",
+      "leather2\\B_11457 copy.jpg",
+      "leather2\\B_11469 copy.jpg",
+      "leather2\\B_11586 copy.jpg",
+      "leather2\\B_11588 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000121",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather2_parent%20X/leather2/B_11454%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather2_parent%20X/leather2/B_11457%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather2_parent%20X/leather2/B_11469%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather2_parent%20X/leather2/B_11586%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather2_parent%20X/leather2/B_11588%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather2_parent%20X/leather2/B_11454%20copy.jpg"
+  },
+  {
+    "id": 122,
+    "nume": "Product 122",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "leather3\\B_11472 copy.jpg",
+      "leather3\\B_11473 copy.jpg",
+      "leather3\\B_11474 copy.jpg",
+      "leather3\\B_11480 copy.jpg",
+      "leather3\\B_11612 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000122",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather3_parent%20X/leather3/B_11472%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather3_parent%20X/leather3/B_11473%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather3_parent%20X/leather3/B_11474%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather3_parent%20X/leather3/B_11480%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather3_parent%20X/leather3/B_11612%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/leather3_parent%20X/leather3/B_11472%20copy.jpg"
+  },
+  {
+    "id": 123,
+    "nume": "Product 123",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-10\\4.jpg",
+      "outwear-10\\_CZY0692.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000123",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-10_parent/outwear-10/4.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-10_parent/outwear-10/_CZY0692.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-10_parent/outwear-10/4.jpg"
+  },
+  {
+    "id": 124,
+    "nume": "Product 124",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-1\\z_CZY0652 copy.jpg",
+      "outwear-1\\_CZY0650.JPG",
+      "outwear-1\\_CZY0652.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000124",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-1_parent/outwear-1/z_CZY0652%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-1_parent/outwear-1/_CZY0650.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-1_parent/outwear-1/_CZY0652.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-1_parent/outwear-1/z_CZY0652%20copy.jpg"
+  },
+  {
+    "id": 125,
+    "nume": "Product 125",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-2\\2.jpg",
+      "outwear-2\\_CZY0679.JPG",
+      "outwear-2\\_CZY0681.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000125",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-2_parent/outwear-2/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-2_parent/outwear-2/_CZY0679.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-2_parent/outwear-2/_CZY0681.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-2_parent/outwear-2/2.jpg"
+  },
+  {
+    "id": 126,
+    "nume": "Product 126",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-3\\7.jpg",
+      "outwear-3\\_CZY0671.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000126",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-3_parent/outwear-3/7.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-3_parent/outwear-3/_CZY0671.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-3_parent/outwear-3/7.jpg"
+  },
+  {
+    "id": 127,
+    "nume": "Product 127",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-4\\5.jpg",
+      "outwear-4\\_CZY0695.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000127",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-4_parent/outwear-4/5.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-4_parent/outwear-4/_CZY0695.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-4_parent/outwear-4/5.jpg"
+  },
+  {
+    "id": 128,
+    "nume": "Product 128",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-5\\3.jpg",
+      "outwear-5\\_CZY0683.JPG",
+      "outwear-5\\_CZY0684.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000128",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-5_parent/outwear-5/3.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-5_parent/outwear-5/_CZY0683.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-5_parent/outwear-5/_CZY0684.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-5_parent/outwear-5/3.jpg"
+  },
+  {
+    "id": 129,
+    "nume": "Product 129",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-6\\z_CZY0661 copy.jpg",
+      "outwear-6\\_CZY0661.JPG",
+      "outwear-6\\_CZY0662.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000129",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-6_parent/outwear-6/z_CZY0661%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-6_parent/outwear-6/_CZY0661.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-6_parent/outwear-6/_CZY0662.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-6_parent/outwear-6/z_CZY0661%20copy.jpg"
+  },
+  {
+    "id": 130,
+    "nume": "Product 130",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-7\\_CZY0636.JPG",
+      "outwear-7\\_CZY0641.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000130",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-7_parent/outwear-7/_CZY0636.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-7_parent/outwear-7/_CZY0641.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-7_parent/outwear-7/_CZY0636.JPG"
+  },
+  {
+    "id": 131,
+    "nume": "Product 131",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-8\\_CZY0664.JPG",
+      "outwear-8\\_CZY0666.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000131",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-8_parent/outwear-8/_CZY0664.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-8_parent/outwear-8/_CZY0666.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-8_parent/outwear-8/_CZY0664.JPG"
+  },
+  {
+    "id": 132,
+    "nume": "Product 132",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "outwear-9\\6.jpg",
+      "outwear-9\\_CZY0703.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000132",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-9_parent/outwear-9/6.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-9_parent/outwear-9/_CZY0703.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/outwear-9_parent/outwear-9/6.jpg"
+  },
+  {
+    "id": 133,
+    "nume": "Product 133",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantalon1\\B_11642 copy.jpg",
+      "pantalon1\\B_11644 copy.jpg",
+      "pantalon1\\B_11645 copy.jpg",
+      "pantalon1\\B_11678 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000133",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon1_parent/pantalon1/B_11642%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon1_parent/pantalon1/B_11644%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon1_parent/pantalon1/B_11645%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon1_parent/pantalon1/B_11678%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon1_parent/pantalon1/B_11642%20copy.jpg"
+  },
+  {
+    "id": 134,
+    "nume": "Product 134",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantalon2\\B_11622 copy.jpg",
+      "pantalon2\\B_11636 copy.jpg",
+      "pantalon2\\B_11639 copy.jpg",
+      "pantalon2\\B_11680 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000134",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon2_parent/pantalon2/B_11622%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon2_parent/pantalon2/B_11636%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon2_parent/pantalon2/B_11639%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon2_parent/pantalon2/B_11680%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon2_parent/pantalon2/B_11622%20copy.jpg"
+  },
+  {
+    "id": 135,
+    "nume": "Product 135",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantalon3\\B_11646 copy.jpg",
+      "pantalon3\\B_11648 copy.jpg",
+      "pantalon3\\B_11650 copy.jpg",
+      "pantalon3\\B_11672 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000135",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon3_parent/pantalon3/B_11646%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon3_parent/pantalon3/B_11648%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon3_parent/pantalon3/B_11650%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon3_parent/pantalon3/B_11672%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon3_parent/pantalon3/B_11646%20copy.jpg"
+  },
+  {
+    "id": 136,
+    "nume": "Product 136",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantalon4\\B_11651 copy.jpg",
+      "pantalon4\\B_11653 copy.jpg",
+      "pantalon4\\B_11674 copy.jpg",
+      "pantalon4\\B_11675 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000136",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon4_parent/pantalon4/B_11651%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon4_parent/pantalon4/B_11653%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon4_parent/pantalon4/B_11674%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon4_parent/pantalon4/B_11675%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon4_parent/pantalon4/B_11651%20copy.jpg"
+  },
+  {
+    "id": 137,
+    "nume": "Product 137",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantalon5\\B_11656 copy.jpg",
+      "pantalon5\\B_11657 copy.jpg",
+      "pantalon5\\B_11658 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000137",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon5_parent/pantalon5/B_11656%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon5_parent/pantalon5/B_11657%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon5_parent/pantalon5/B_11658%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon5_parent/pantalon5/B_11656%20copy.jpg"
+  },
+  {
+    "id": 138,
+    "nume": "Product 138",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantalon6\\B_11664 copy.jpg",
+      "pantalon6\\B_11665 copy.jpg",
+      "pantalon6\\B_11667 copy.jpg",
+      "pantalon6\\B_11671 copy.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000138",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon6_parent/pantalon6/B_11664%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon6_parent/pantalon6/B_11665%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon6_parent/pantalon6/B_11667%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon6_parent/pantalon6/B_11671%20copy.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantalon6_parent/pantalon6/B_11664%20copy.jpg"
+  },
+  {
+    "id": 139,
+    "nume": "Product 139",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof1\\FK1A9734-Edit.jpg",
+      "pantof1\\FK1A9786-Edit.jpg",
+      "pantof1\\FK1A9791-Edit.jpg",
+      "pantof1\\FK1A9880-Edit-2 copy.jpg",
+      "pantof1\\FK1A9880-Edit-2.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000139",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof1_parent/pantof1/FK1A9734-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof1_parent/pantof1/FK1A9786-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof1_parent/pantof1/FK1A9791-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof1_parent/pantof1/FK1A9880-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof1_parent/pantof1/FK1A9880-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof1_parent/pantof1/FK1A9734-Edit.jpg"
+  },
+  {
+    "id": 140,
+    "nume": "Product 140",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof2\\FK1A9738.jpg",
+      "pantof2\\FK1A9784-Edit.jpg",
+      "pantof2\\FK1A9795-Edit.jpg",
+      "pantof2\\FK1A9882-Edit-2 copy.jpg",
+      "pantof2\\FK1A9882-Edit-2.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000140",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof2_parent/pantof2/FK1A9738.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof2_parent/pantof2/FK1A9784-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof2_parent/pantof2/FK1A9795-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof2_parent/pantof2/FK1A9882-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof2_parent/pantof2/FK1A9882-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof2_parent/pantof2/FK1A9738.jpg"
+  },
+  {
+    "id": 141,
+    "nume": "Product 141",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof3\\FK1A9739-Edit.jpg",
+      "pantof3\\FK1A9783-Edit.jpg",
+      "pantof3\\FK1A9799-Edit.jpg",
+      "pantof3\\FK1A9884-Edit-2 copy.jpg",
+      "pantof3\\FK1A9884-Edit-2.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000141",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof3_parent/pantof3/FK1A9739-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof3_parent/pantof3/FK1A9783-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof3_parent/pantof3/FK1A9799-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof3_parent/pantof3/FK1A9884-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof3_parent/pantof3/FK1A9884-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof3_parent/pantof3/FK1A9739-Edit.jpg"
+  },
+  {
+    "id": 142,
+    "nume": "Product 142",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof4\\FK1A9749-Edit.jpg",
+      "pantof4\\FK1A9785-Edit.jpg",
+      "pantof4\\FK1A9792-Edit.jpg",
+      "pantof4\\FK1A9876-Edit-2 copy.jpg",
+      "pantof4\\FK1A9876-Edit-2.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000142",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof4_parent/pantof4/FK1A9749-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof4_parent/pantof4/FK1A9785-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof4_parent/pantof4/FK1A9792-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof4_parent/pantof4/FK1A9876-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof4_parent/pantof4/FK1A9876-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof4_parent/pantof4/FK1A9749-Edit.jpg"
+  },
+  {
+    "id": 143,
+    "nume": "Product 143",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof5\\FK1A9753-Edit.jpg",
+      "pantof5\\FK1A9780-Edit.jpg",
+      "pantof5\\FK1A9794-Edit.jpg",
+      "pantof5\\FK1A9875-Edit-2 copy.jpg",
+      "pantof5\\FK1A9875-Edit-2.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000143",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof5_parent/pantof5/FK1A9753-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof5_parent/pantof5/FK1A9780-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof5_parent/pantof5/FK1A9794-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof5_parent/pantof5/FK1A9875-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof5_parent/pantof5/FK1A9875-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof5_parent/pantof5/FK1A9753-Edit.jpg"
+  },
+  {
+    "id": 144,
+    "nume": "Product 144",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof6\\FK1A9755-Edit.jpg",
+      "pantof6\\FK1A9776-Edit.jpg",
+      "pantof6\\FK1A9810-Edit.jpg",
+      "pantof6\\FK1A9894-Edit-2 copy.jpg",
+      "pantof6\\FK1A9894-Edit-2.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000144",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof6_parent/pantof6/FK1A9755-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof6_parent/pantof6/FK1A9776-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof6_parent/pantof6/FK1A9810-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof6_parent/pantof6/FK1A9894-Edit-2%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof6_parent/pantof6/FK1A9894-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof6_parent/pantof6/FK1A9755-Edit.jpg"
+  },
+  {
+    "id": 145,
+    "nume": "Product 145",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof7\\FK1A9757-Edit.jpg",
+      "pantof7\\FK1A9773-Edit.jpg",
+      "pantof7\\FK1A9812-Edit-2.jpg",
+      "pantof7\\FK1A9892-Edit-2-Edit.jpg",
+      "pantof7\\FK1A9892-Edit-2.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000145",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof7_parent/pantof7/FK1A9757-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof7_parent/pantof7/FK1A9773-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof7_parent/pantof7/FK1A9812-Edit-2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof7_parent/pantof7/FK1A9892-Edit-2-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof7_parent/pantof7/FK1A9892-Edit-2.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof7_parent/pantof7/FK1A9757-Edit.jpg"
+  },
+  {
+    "id": 146,
+    "nume": "Product 146",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "pantof8\\FK1A9759-Edit.jpg",
+      "pantof8\\FK1A9778-Edit.jpg",
+      "pantof8\\FK1A9811-Edit.jpg",
+      "pantof8\\FK1A9891-Edit-3 copy.jpg",
+      "pantof8\\FK1A9891-Edit-3.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000146",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof8_parent/pantof8/FK1A9759-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof8_parent/pantof8/FK1A9778-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof8_parent/pantof8/FK1A9811-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof8_parent/pantof8/FK1A9891-Edit-3%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof8_parent/pantof8/FK1A9891-Edit-3.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/pantof8_parent/pantof8/FK1A9759-Edit.jpg"
+  },
+  {
+    "id": 147,
+    "nume": "Product 147",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "sneaker\\FK1A9762-Edit.jpg",
+      "sneaker\\FK1A9774-Edit.jpg",
+      "sneaker\\FK1A9803-Edit.jpg",
+      "sneaker\\FK1A9893-Edit copy.jpg",
+      "sneaker\\FK1A9893-Edit.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000147",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/sneaker_parent/sneaker/FK1A9762-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/sneaker_parent/sneaker/FK1A9774-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/sneaker_parent/sneaker/FK1A9803-Edit.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/sneaker_parent/sneaker/FK1A9893-Edit%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/sneaker_parent/sneaker/FK1A9893-Edit.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/sneaker_parent/sneaker/FK1A9762-Edit.jpg"
+  },
+  {
+    "id": 148,
+    "nume": "Product 148",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "Yeni klasör (2)\\14.JPG",
+      "Yeni klasör (2)\\15.jpg",
+      "Yeni klasör (2)\\17.jpg",
+      "Yeni klasör (2)\\18.jpg",
+      "Yeni klasör (2)\\19.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000148",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(2)_parent/Yeni%20klas%C3%B6r%20(2)/14.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(2)_parent/Yeni%20klas%C3%B6r%20(2)/15.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(2)_parent/Yeni%20klas%C3%B6r%20(2)/17.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(2)_parent/Yeni%20klas%C3%B6r%20(2)/18.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(2)_parent/Yeni%20klas%C3%B6r%20(2)/19.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(2)_parent/Yeni%20klas%C3%B6r%20(2)/14.JPG"
+  },
+  {
+    "id": 149,
+    "nume": "Product 149",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "Yeni klasör (3)\\10.jpg",
+      "Yeni klasör (3)\\11.jpg",
+      "Yeni klasör (3)\\7.JPG",
+      "Yeni klasör (3)\\8.jpg",
+      "Yeni klasör (3)\\9.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000149",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(3)_parent/Yeni%20klas%C3%B6r%20(3)/10.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(3)_parent/Yeni%20klas%C3%B6r%20(3)/11.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(3)_parent/Yeni%20klas%C3%B6r%20(3)/7.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(3)_parent/Yeni%20klas%C3%B6r%20(3)/8.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(3)_parent/Yeni%20klas%C3%B6r%20(3)/9.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(3)_parent/Yeni%20klas%C3%B6r%20(3)/10.jpg"
+  },
+  {
+    "id": 150,
+    "nume": "Product 150",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "Yeni klasör (4)\\6.jpg",
+      "Yeni klasör (4)\\IMG_0255 copy.jpg",
+      "Yeni klasör (4)\\IMG_0256 copy.JPG",
+      "Yeni klasör (4)\\IMG_0257 copy.jpg",
+      "Yeni klasör (4)\\IMG_0259 copy.JPG"
+    ],
+    "culoare": "",
+    "product_code": "PROD000150",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(4)_parent/Yeni%20klas%C3%B6r%20(4)/6.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(4)_parent/Yeni%20klas%C3%B6r%20(4)/IMG_0255%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(4)_parent/Yeni%20klas%C3%B6r%20(4)/IMG_0256%20copy.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(4)_parent/Yeni%20klas%C3%B6r%20(4)/IMG_0257%20copy.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(4)_parent/Yeni%20klas%C3%B6r%20(4)/IMG_0259%20copy.JPG"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r%20(4)_parent/Yeni%20klas%C3%B6r%20(4)/6.jpg"
+  },
+  {
+    "id": 151,
+    "nume": "Product 151",
+    "pret": "0",
+    "materiale": "",
+    "info-aditional": "",
+    "sourceImages": [
+      "Yeni klasör\\1.JPG",
+      "Yeni klasör\\2.jpg",
+      "Yeni klasör\\4.JPG",
+      "Yeni klasör\\5.jpg"
+    ],
+    "culoare": "",
+    "product_code": "PROD000151",
+    "imgURLs": [
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r_parent/Yeni%20klas%C3%B6r/1.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r_parent/Yeni%20klas%C3%B6r/2.jpg",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r_parent/Yeni%20klas%C3%B6r/4.JPG",
+      "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r_parent/Yeni%20klas%C3%B6r/5.jpg"
+    ],
+    "main_image_url": "https://raw.githubusercontent.com/radumihh/product-images/main/general/Yeni%20klas%C3%B6r_parent/Yeni%20klas%C3%B6r/1.JPG"
+  }
+]
